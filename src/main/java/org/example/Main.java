@@ -33,7 +33,7 @@ public class Main {
 
         ros[1] = 10;
         ros[2] = 20;
-        ros[3] = 30;
+        ros[3] =  30;
         String[] names = new String [3];
         names[0] = "Mustafa Capras";
         names[1] = "Al Pacino";
