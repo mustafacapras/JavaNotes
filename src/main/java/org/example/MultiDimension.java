@@ -1,5 +1,6 @@
 package org.example;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class MultiDimension {
@@ -34,12 +35,16 @@ public class MultiDimension {
         }
 
         // Output
-        for (int row = 0; row <arr.length ; row++) {
+        /*for (int row = 0; row <arr.length ; row++) {
             // for each col in every row
             for (int col = 0; col < arr[row].length; col++) {
                 System.out.print(arr[row][col] + " ");
             }
             System.out.println();
+        } */
+
+        for (int [] a: arr) {
+            System.out.println(Arrays.toString(a));
         }
 
 
